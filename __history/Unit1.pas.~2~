@@ -1,0 +1,42 @@
+unit Unit1;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs,
+  FMX.Controls.Presentation, FMX.StdCtrls, FMX.Layouts;
+
+type
+  TU_calculadora = class(TForm)
+    btn_div: TButton;
+    btn_ponto: TButton;
+    btn_igual: TButton;
+    bnt_0: TButton;
+    btn_3: TButton;
+    bnt_mult: TButton;
+    btn_2: TButton;
+    btn_1: TButton;
+    btn_6: TButton;
+    btn_mais: TButton;
+    btn_5: TButton;
+    btn_4: TButton;
+    btn_9: TButton;
+    btn_menos: TButton;
+    btn_8: TButton;
+    btn_7: TButton;
+    caixa_botoes: TLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  U_calculadora: TU_calculadora;
+
+implementation
+
+{$R *.fmx}
+
+end.
